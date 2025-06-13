@@ -22,8 +22,7 @@ body{
     padding: 0 70px;
     margin: 0 auto;
     border: 2px solid red;
-    position: relative;
-    
+    position: relative; 
 }
 
 .header .container img{
@@ -47,10 +46,6 @@ body{
     color: rgba(255, 255, 255, 1);
 }
 
-.header .container .logo__menu--wrap  .menu {
-
-}
-
 .header .container .logo__menu--wrap  .menu nav ul{
     display: flex;
     align-items: center;
@@ -63,4 +58,25 @@ body{
     font-weight: 500;
     font-size: 16px;
     text-decoration: none;
+}
+
+.header .container .header__title{
+    position: absolute;
+    top: 190px;
+    left: 91px;
+    z-index: 2;
+}
+
+.header .container .header__title h1{
+    font-weight: 700;
+    font-size: 52px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.header .container .header__title p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 170%;
+    color: rgba(255, 255, 255, 1);
+    margin: 16px 0 32px 0;
 }
