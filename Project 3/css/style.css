@@ -1,0 +1,363 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    width: 1440px;
+    height: 900px;
+    margin-top: 50px;
+}
+
+.container{
+    margin: 25px 33px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.blackreactangle{
+    width: 132px;
+    height: 854px;
+    background-color: black;
+    border-radius: 20px;
+    padding: 0px 43px;
+    padding-top: 16px;
+    gap: 64px;
+    box-shadow: 20px 20px 20px  rgb(0,0,0,0.5);
+    display: flex;
+}
+
+.container{
+    
+}
+
+.josh{
+    width: 620px;
+}
+
+.joshrectangle{
+     width: 620px;
+     height: 160px;
+     background-color: #F5F5F7;
+     border-radius: 10px;
+     display: flex;
+     justify-content: space-between;
+     margin-bottom: 25px;
+}
+.joshrectangle img{
+    justify-content: end;
+}
+
+.HJosh{
+    padding: 40px 32px;
+}
+
+.imgJ{
+    margin-top: -30px;
+    margin-right: 80px;
+}
+
+.wrapperrect{
+    display: flex;
+    gap: 24px;
+}
+
+.topwrapper{
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ margin: 40px 0px;
+}
+
+.top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    column-gap: 25px;
+    justify-content: space-between;
+    height: 500px;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: column;
+    gap: 63px;
+    align-items: center;
+    justify-content: center;
+}
+
+.longrectangle{
+    width: 501px;
+    height: 80px;
+    border-radius: 14px;
+    background-color: #F5F5F7;
+    display: flex;
+    gap: 45px;
+}
+
+.spanishrectangle1{
+    width: 64px;
+    height: 64px;
+    border-radius: 12px;
+    background-color:#ffffff;
+    margin: 8px 9px;
+}
+
+.spanishrectangle2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle83{
+        width: 60px;
+        height: 60px;
+        border: 5px solid transparent;
+        border-top-color: #000;
+        border-left-color: #000;
+        border-bottom-color: #000;
+        border-radius: 50%;
+        transform: rotate(-40deg);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+
+.content{
+    transform: rotate(40deg);
+}
+
+.Continue{
+    width: 120px;
+    height: 40px;
+    background-color: black;
+    border-radius: 8px;
+    color: white;
+    margin-left: -10px;
+}
+
+.formargin{
+    margin: 19px 0px;
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+.strelka{
+    display: flex;
+    align-items: center;
+    gap: 17px;
+    margin: 22px 0px;
+}
+
+.strelka1{
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 50%;
+    display: flex;
+    align-items: start;
+}
+
+.strelka2{
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 50%;
+    display: flex;
+    align-items: start;
+}
+
+h1, h2, p{
+    font-family: sans-serif;
+}
+
+.bigcontainer{
+    margin-top: 26px;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.logos{
+    margin-top: 11px;
+}
+.figma{
+    width: 620px;
+    height: 80px;
+    border: 1px solid gray;
+    border-radius: 14px;
+    background-color: #F5F5F7;
+    margin-top: 19px;
+}
+
+.warapperfr{
+    margin:8px 9px ;
+    display: flex;
+    justify-content: space-between;
+}
+
+.figmarectangle{
+    width: 64px;
+    height: 64px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 16px 20px;
+}
+
+.learnfigma{
+    margin: 18px 0px;
+}
+
+.soat{
+    display: flex;
+    gap: 8px;
+}
+
+.olov{
+    display: flex;
+    gap: 8px;
+}
+
+.viewcourse{
+    width: 120px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: black;
+    color: #ffffff;
+    margin: 12px 0px;
+}
+
+.SO{
+    margin: 26px 0px;
+    display: flex;
+    align-items: center;
+    gap: 39px;
+}
+
+.logos{
+    margin-top: 16px;
+}
+
+.instagramrectangle{
+    width: 64px;
+    height: 64px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 16px 14px;
+}
+
+.search{
+    width: 300px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: #F5F5F7;
+}
+
+.wrapperdiagramma{
+    display: flex;
+    gap: 36px;
+}
+
+.diagrammaP{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+    height: 650px;
+}
+
+.courses{
+    margin-top: 26px;
+}
+
+.people{
+    display: flex;
+    gap: 25px;
+}
+
+.data{
+    display: flex
+}
+
+.courses{
+    display: flex;
+    gap: 24px;
+}
+
+.course1{
+    width: 208px;
+    height: 107px;
+    border-radius: 14px;
+    background-color: #F5F5F7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapperdiagramma{
+    display: flex;
+    width: 397px;
+    justify-content: space-between;
+}
+
+.course2{
+    width: 208px;
+    height: 97px;
+    border-radius: 14px;
+    background-color: #F5F5F7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.diagrammaP{
+    margin-top: 32px;
+}
+
+.hours{
+    display: flex;
+    gap: 128px;
+    align-items: center;
+    justify-content: center;
+}
+
+.premium{
+    width: 440px;
+    height: 193px;
+    border-radius: 14px;
+    background-color: #F5F5F7;
+    display: flex;
+    gap: 18px;
+}
+
+.learn2{
+    margin: 25px 24px;
+}
+
+.brain{
+    margin-top: 38px;
+    margin-right: 8px;
+}
+
+.gopremium{
+    width: 120px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+    margin-top: 25px;
+}
+
+.search{
+    width: 300px;
+    height: 40px;
+    background-color: #F5F5F7;
+    outline: none;
+    font-size: 16px;
+}
