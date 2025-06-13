@@ -16,6 +16,25 @@ body{
     z-index: 0;
 }
 
+button{
+    background: linear-gradient(rgba(5, 96, 136, 1), rgba(9, 167, 202, 1));
+    padding: 13px 14px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    color: rgba(255, 255, 255, 1);
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+  button:hover {
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.5);
+    transform: scale(1.02);
+    transition: transform 0.3s ease;
+  }
+
 .container{
     max-width: 1440px;
     width: 100%;
