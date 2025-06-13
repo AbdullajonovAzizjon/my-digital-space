@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+.header{
+    width: 100%;
+    height: 690px;
+    background: linear-gradient(rgba(2, 57, 87, 1), rgba(5, 96, 136, 1));
+    position: relative;
+    z-index: 0;
+}
+
+.container{
+    max-width: 1440px;
+    width: 100%;
+    padding: 0 70px;
+    margin: 0 auto;
+    border: 2px solid red;
+    position: relative;
+    
+}
+
+.header .container img{
+    position: absolute;
+    right: 0;
+}
+
+.header .container .logo__menu--wrap{
+    width: 1300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    z-index: 2;
+}
+
+.header .container .logo__menu--wrap .logo{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 66px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.header .container .logo__menu--wrap  .menu {
+
+}
+
+.header .container .logo__menu--wrap  .menu nav ul{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    list-style-type: none;
+}
+
+.header .container .logo__menu--wrap  .menu nav ul a{
+    color: rgba(255, 255, 255, 1);
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+}
