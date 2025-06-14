@@ -115,10 +115,16 @@ button{
     width: 168px;
     height: 168px;
     border-radius: 50%;
-    background-color: red;
+    background-color: whitesmoke;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+    gap: 18px;
+    box-shadow: 0 8px 30px 0 rgba(5, 96, 136, 0.15);
+    position: relative;
+    left: 236px;
+    top: 126px;
 }
 
 .container .company .images__wrap .circle p{
