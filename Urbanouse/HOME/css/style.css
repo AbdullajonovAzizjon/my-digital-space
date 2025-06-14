@@ -109,6 +109,14 @@ button{
     max-width: 1243px;
     width: 100%;
     border: 2px solid black;
+    display: flex;
+    gap: 770px;
+}
+
+.container .company .images__wrap .circle p{
+    font-weight: 500;
+    font-size: 16px;
+    color: rgba(5, 96, 136, 1);
 }
 
 .container .company .images__wrap .circle{
@@ -125,10 +133,48 @@ button{
     position: relative;
     left: 236px;
     top: 126px;
+    z-index: 1;
 }
 
-.container .company .images__wrap .circle p{
+.container .company .images__wrap .house{
+    position: absolute;
+    top: 0;
+}
+
+.container .company .images__wrap .architect{
+    position: absolute;
+    top: 260px;
+}
+
+.container .company .images__wrap .builders{
+    position: absolute;
+    top: 0;
+    left: 400px;
+}
+
+.container .company .images__wrap .villa{
+    position: absolute;
+    left: 400px;
+    top: 177px;
+}
+
+.container .company .title p:first-child{
+    font-weight: 700;
+    font-size: 24px;
+    color: rgba(5, 96, 136, 1);
+    margin-bottom: 16px;
+}
+
+.container .company .title p:nth-child(2){
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(67, 67, 67, 1);
+    margin-bottom: 16px;
+}
+
+.container .company .title p:nth-child(3){
     font-weight: 500;
     font-size: 16px;
-    color: rgba(5, 96, 136, 1);
+    color: rgba(67, 67, 67, 1);
+    margin-bottom: 16px;
 }
