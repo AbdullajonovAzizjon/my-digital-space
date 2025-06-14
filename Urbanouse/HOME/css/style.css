@@ -18,7 +18,7 @@ body{
 
 button{
     background: linear-gradient(rgba(5, 96, 136, 1), rgba(9, 167, 202, 1));
-    padding: 13px 14px;
+    padding: 22px 40px 23px 41px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     color: rgba(255, 255, 255, 1);
     border: none;
@@ -108,9 +108,9 @@ button{
 .container .company{
     max-width: 1243px;
     width: 100%;
-    border: 2px solid black;
+    height: 419px;
     display: flex;
-    gap: 770px;
+    gap: 600px;
 }
 
 .container .company .images__wrap .circle p{
@@ -177,4 +177,17 @@ button{
     font-size: 16px;
     color: rgba(67, 67, 67, 1);
     margin-bottom: 16px;
+}
+
+.container .company .title .title__about{
+    display: flex;
+    align-items: center;
+    gap: 62px;
+    margin-bottom: 32px;
+}
+
+.container .company .title .title__about p{
+    font-weight: 700;
+    font-size: 20px;
+    color: rgba(5, 96, 136, 1);
 }
