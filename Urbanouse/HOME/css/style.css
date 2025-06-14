@@ -35,6 +35,10 @@ button{
     transition: transform 0.3s ease;
   }
 
+.header{
+    margin-bottom: 110px ;
+}
+
 .container{
     max-width: 1440px;
     width: 100%;
@@ -58,11 +62,12 @@ button{
     z-index: 2;
 }
 
-.header .container .logo__menu--wrap .logo{
+.header .container .logo__menu--wrap .logo a{
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 66px;
     color: rgba(255, 255, 255, 1);
+    text-decoration: none;
 }
 
 .header .container .logo__menu--wrap  .menu nav ul{
@@ -98,4 +103,26 @@ button{
     line-height: 170%;
     color: rgba(255, 255, 255, 1);
     margin: 16px 0 32px 0;
+}
+
+.container .company{
+    max-width: 1243px;
+    width: 100%;
+    border: 2px solid black;
+}
+
+.container .company .images__wrap .circle{
+    width: 168px;
+    height: 168px;
+    border-radius: 50%;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .company .images__wrap .circle p{
+    font-weight: 500;
+    font-size: 16px;
+    color: rgba(5, 96, 136, 1);
 }
