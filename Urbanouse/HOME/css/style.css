@@ -191,3 +191,107 @@ button{
     font-size: 20px;
     color: rgba(5, 96, 136, 1);
 }
+
+.container .services{
+    margin: 100px 0;
+}
+
+.container .services p:first-child{
+    font-weight: 700;
+    font-size: 24px;
+    color: rgba(5, 96, 136, 1);
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.container .services p:nth-child(2){
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(67, 67, 67, 1);
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.container .services .services__desigin--wrap{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.container .services .services__desigin--wrap .img1__wrap{
+    background-image: url(../assets/images/house2.png);
+    background-repeat: no-repeat;
+    width: 310px;
+    height: 240px;
+    padding: 27px 37px;
+}
+
+.container .services .services__desigin--wrap .img1__wrap p:nth-child(2){
+    font-weight: 700;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+}
+
+.container .services .services__desigin--wrap .img1__wrap p:nth-child(3){
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.container .services .services__desigin--wrap .img2__wrap{
+    width: 310px;
+    height: 240px;
+    padding: 27px 37px;
+}
+
+.container .services .services__desigin--wrap .img2__wrap p:nth-child(2){
+    font-weight: 700;
+    font-size: 20px;
+    color:rgba(67, 67, 67, 1);
+    text-align: start;
+}
+
+.container .services .services__desigin--wrap .img2__wrap p:nth-child(3){
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(67, 67, 67, 1);
+}
+
+.container .services .services__desigin--wrap .img3__wrap{
+    width: 310px;
+    height: 240px;
+    padding: 27px 37px;
+}
+
+.container .services .services__desigin--wrap .img3__wrap p:nth-child(2){
+    font-weight: 700;
+    font-size: 20px;
+    color:rgba(67, 67, 67, 1);
+    text-align: start;
+}
+
+.container .services .services__desigin--wrap .img3__wrap p:nth-child(3){
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(67, 67, 67, 1);
+}
+
+.container .services .services__desigin--wrap .img4__wrap{
+    width: 310px;
+    height: 240px;
+    padding: 27px 37px;
+}
+
+.container .services .services__desigin--wrap .img4__wrap p:nth-child(2){
+    font-weight: 700;
+    font-size: 20px;
+    color:rgba(67, 67, 67, 1);
+    text-align: start;
+}
+
+.container .services .services__desigin--wrap .img4__wrap p:nth-child(3){
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(67, 67, 67, 1);
+}
