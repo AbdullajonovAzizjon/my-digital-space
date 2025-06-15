@@ -649,3 +649,27 @@ button{
     text-align: center;
     margin-bottom: 32px;
 }
+
+.container .registration .email{
+    width: 640px;
+    height: 62px;
+    background-color: rgba(255, 255, 255, 1);
+    padding: 18px 30px;
+    border: none;
+    position: relative;
+}
+
+.container .registration .email::placeholder{
+    font-weight: 500;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.container .registration .Submit{
+    height: 63px;
+    position: absolute;
+    right: 396px;
+    bottom: 58px;
+    z-index: 1;
+}
+
