@@ -599,6 +599,10 @@ button{
     color: rgba(0, 0, 0, 0.3);
 }
 
+.container .video__part{
+    margin-bottom: 77px;
+}
+
 .container .video__part iframe:first-child{
     display: flex;
     justify-self: center;
@@ -612,7 +616,7 @@ button{
     background: linear-gradient(rgba(2, 57, 87, 1), rgba(5, 96, 136, 1));
     position: absolute;
     right: 178px;
-    bottom: -30px;
+    bottom: 50px;
     z-index: 1;
 }
 
@@ -620,4 +624,28 @@ button{
     font-weight: 400;
     font-size: 16px;
     color: rgba(255, 255, 255, 1);
+}
+
+.container .registration{
+    width: 1300px;
+    height: 428px;
+    background-image: url(../assets/images/reg.png);
+    background-repeat: no-repeat;
+    padding: 55px 330px;
+}
+
+.container .registration p:first-child{
+    font-weight: 700;
+    font-size: 52px;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.container .registration p:nth-child(2){
+    font-weight: 500;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    margin-bottom: 32px;
 }
