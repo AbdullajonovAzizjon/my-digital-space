@@ -581,3 +581,20 @@ button{
     left: -30px;
 }
 
+.container .Partners {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 300px;
+    margin-bottom: 100px;
+}
+
+.container .Partners a{
+    text-decoration: none;
+}
+
+.container .Partners a p{
+    font-weight: 600;
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.3);
+}
