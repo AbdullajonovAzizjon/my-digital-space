@@ -699,3 +699,10 @@ footer .container .contact__wrap{
     justify-content: center;
     gap: 16px;
 }
+
+footer .container .career__wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+}
