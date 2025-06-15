@@ -327,10 +327,20 @@ button{
     align-items: center;
     flex-direction: column;
     padding: 55px 95px 42px 95px;
+    text-align: center;
 }
 
-.container .benefits .benefits__cards--wrap .card1{
-    
+.container .benefits .benefits__cards--wrap .card1 p:nth-child(2){
+    font-weight: 700;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 16px;
+}
+
+.container .benefits .benefits__cards--wrap .card1 p:nth-child(3){
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 1);
 }
 
 .container .benefits .benefits__cards--wrap .card2{
@@ -338,6 +348,24 @@ button{
     height: 313px;
     background-image: url(../assets/images/card2.png);
     background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 55px 57px 42px 57px;
+    text-align: center;
+}
+
+.container .benefits .benefits__cards--wrap .card2 p:nth-child(2){
+    font-weight: 700;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 16px;
+}
+
+.container .benefits .benefits__cards--wrap .card2 p:nth-child(3){
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 1);
 }
 
 .container .benefits .benefits__cards--wrap .card3{
@@ -345,4 +373,22 @@ button{
     height: 313px;
     background-image: url(../assets/images/card3.png);
     background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 55px 57px 42px 57px;
+    text-align: center;
+}
+
+.container .benefits .benefits__cards--wrap .card3 p:nth-child(2){
+    font-weight: 700;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 16px;
+}
+
+.container .benefits .benefits__cards--wrap .card3 p:nth-child(3){
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 1);
 }
