@@ -501,6 +501,10 @@ button{
     cursor: pointer;
 }
 
+.container .ideas{
+    margin-bottom: 100px;
+}
+
 .container .ideas .box__picture--wrap .box{
     width: 330px;
     height: 320px;
@@ -563,10 +567,17 @@ button{
     color: rgba(255, 255, 255, 1);
 }
 
-.container .ideas .box__picture--wrap .idea:nth-child(2){
+.container .ideas .box__picture--wrap .idea p:nth-child(2){
     font-style: italic;
     font-weight: 600;
     font-size: 16px;
     color: rgba(255, 255, 255, 1);
     margin-top: 16px;
 }
+
+.container .ideas .box__picture--wrap .idea img:nth-child(3){
+    position: absolute;
+    top: -50px;
+    left: -30px;
+}
+
