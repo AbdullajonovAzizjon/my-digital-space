@@ -43,7 +43,6 @@ button{
     max-width: 1440px;
     width: 100%;
     margin: 0 auto;
-    border: 2px solid red;
 }
 
 .header .container .logo__menu--wrap{
@@ -82,7 +81,11 @@ button{
     font-size: 52px;
     color: rgba(255, 255, 255, 1);
     text-align: center;
-    margin: 193px 193px 0 193px;
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -20%);
 }
 
 .container .story__wrap{
