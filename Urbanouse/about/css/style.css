@@ -116,3 +116,9 @@ body{
     background-position: center;
     background-repeat: no-repeat;
 }
+
+.middle__part .container .wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
