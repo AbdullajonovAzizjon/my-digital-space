@@ -85,22 +85,21 @@ body{
 .container .story__wrap .title{
     display: flex;
     flex-direction: column;
-    right: 0;
-    z-index: 1;
+    margin-top: px;
 }
 
 .container .story__wrap .title p:first-child{
     font-weight: 700;
     font-size: 24px;
     color: rgba(5, 96, 136, 1);
-    margin-bottom: 16px;
+    margin-bottom: 32px;
 }
 
 .container .story__wrap .title p:nth-child(2){
     font-weight: 400;
     font-size: 16px;
     color: rgba(67, 67, 67, 1);
-    margin-bottom: 32px;
+    margin-bottom: 50px;
 }
 
 .container .story__wrap .title p:nth-child(3){
