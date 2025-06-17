@@ -90,6 +90,7 @@ button{
 .container .main1{
     display: flex;
     align-items: center;
+    margin-bottom: 100px;
 }
 
 .container .main1 .box{
