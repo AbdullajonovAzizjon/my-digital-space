@@ -86,3 +86,9 @@ button{
     left: 50%;
     transform: translate(-50%, -20%);
 }
+
+.container .main1 .box{
+    width: 769px;
+    height: 481px;
+    border-color: aqua;
+}
