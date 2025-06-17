@@ -96,5 +96,11 @@ button{
     width: 769px;
     height: 481px;
     background-color: rgba(245, 245, 245, 1);
-    padding: 44px 34px 35px 39pxb;
+    padding: 44px 34px 35px 39px;
+}
+
+.container .main1 .box p:first-child{
+    font-weight: 700;
+    font-size: 24px;
+    color: rgba(5, 96, 136, 1);
 }
