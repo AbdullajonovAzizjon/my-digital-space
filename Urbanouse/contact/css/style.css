@@ -137,6 +137,10 @@ button{
     color: rgba(0, 0, 0, 0.4);
 }
 
+.container .main2{
+    margin-bottom: 100px;
+}
+
 .container .main2 p{
     font-weight: 700;
     font-size: 24px;
