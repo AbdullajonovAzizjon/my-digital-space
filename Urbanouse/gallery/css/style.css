@@ -43,7 +43,7 @@ button{
     max-width: 1440px;
     width: 100%;
     margin: 0 auto;
-    padding: 0 70px;
+    padding: 0 68px;
     border: 2px solid red;
 }
 
@@ -88,4 +88,18 @@ button{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -20%);
+}
+
+.container .cards__wrap{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.container .cards__wrap .card{
+    width: 420px;
+    height: 490px;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0 8px 30px rgba(2, 57, 87, 0.15);
 }
