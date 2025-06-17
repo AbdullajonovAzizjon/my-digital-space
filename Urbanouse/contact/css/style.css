@@ -155,3 +155,118 @@ button{
     gap: 32px;
     justify-content: center;
 }
+
+footer{
+    width: 100%;
+    height: 380px;
+    padding: 60px 0 74px 0;
+    background: linear-gradient(rgba(2, 57, 87, 1), rgba(5, 96, 136, 1));
+}
+
+footer .container{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+footer .container .menu__wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+}
+
+footer .container .contact__wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+}
+
+footer .container .career__wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+}
+
+footer .container .business__wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+}
+
+footer .container .logo__wrap .logo a{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 66px;
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+}
+
+footer .container .logo__wrap p:nth-child(2){
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 1);
+}
+
+footer .container .menu__wrap p:first-child{
+    font-weight: 700;
+    font-size: 24px;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 16px;
+}
+
+footer .container .menu__wrap p{
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 1);
+}
+
+footer .container .contact__wrap p:first-child{
+    font-weight: 700;
+    font-size: 24px;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 16px;
+}
+
+footer .container .contact__wrap p{
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 1);
+}
+
+footer .container .career__wrap p:first-child{
+    font-weight: 700;
+    font-size: 24px;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 16px;
+}
+
+footer .container .career__wrap p{
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 1);
+}
+
+footer .container .business__wrap p:first-child{
+    font-weight: 700;
+    font-size: 24px;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 16px;
+}
+
+footer .container .business__wrap p{
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.container .finish{
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(67, 67, 67, 1);
+    text-align: center;
+    margin: 32px 0;
+}
