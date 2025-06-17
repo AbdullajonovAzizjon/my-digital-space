@@ -120,3 +120,18 @@ button{
     font-size: 16px;
     color: rgba(0, 0, 0, 0.4);
 }
+
+.container .main1 .box textarea{
+    width: 696px;
+    height: 183px;
+    background-color: rgba(255, 255, 255, 1);
+    border: none;
+    padding: 12px 20px;
+    margin-bottom: 16px;
+}
+
+.container .main1 .box textarea::placeholder{
+    font-weight: 500;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.4);
+}
