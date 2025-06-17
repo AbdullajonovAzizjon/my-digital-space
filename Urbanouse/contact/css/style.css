@@ -104,3 +104,8 @@ button{
     font-size: 24px;
     color: rgba(5, 96, 136, 1);
 }
+
+.container .main1 .box input:nth-last-child(2){
+    width: 340px;
+    height: 50px;
+}
