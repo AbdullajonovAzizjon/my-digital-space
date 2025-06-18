@@ -44,8 +44,7 @@ button{
     width: 100%;
     margin: 0 auto;
     padding: 0 68px;
-    border: 2px solid red;
-}
+    }
 
 .header .container .logo__menu--wrap{
     width: 1300px;
@@ -189,7 +188,7 @@ footer .container .logo__wrap p:nth-child(2){
     color: rgba(255, 255, 255, 1);
 }
 
-footer .container .menu__wrap p:first-child{
+footer .container .menu__wrap p a:first-child{
     font-weight: 700;
     font-size: 24px;
     color: rgba(255, 255, 255, 1);
