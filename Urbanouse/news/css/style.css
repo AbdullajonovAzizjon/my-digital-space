@@ -157,3 +157,11 @@ main .container .cards__wrap .card p:nth-child(3){
 main .container .cards__wrap .card button:nth-child(4){
     margin-left: 30px;
 }
+
+.container .main__text{
+    font-weight: 700;
+    font-size: 24px;
+    color: rgba(5, 96, 136, 1);
+    text-align: center;
+    margin-top: 600px;
+}
