@@ -160,5 +160,12 @@ button{
     color: rgba(255, 255, 255, 1);
     position: absolute;
     left: 606px;
-    margin-bottom: 32px;
+}
+
+.main2 .container .main2__part2 .imgs__wrap{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    position: absolute;
+    top: 64px;
 }
