@@ -103,3 +103,31 @@ main .container .cards__wrap .card{
     box-shadow: 0 8px 30px rgba(2, 57, 87, 0.15);
     padding: 30px 30px 16px 30px;
 }
+
+main .container .cards__wrap .card p:first-child{
+    font-weight: 700;
+    font-size: 24px;
+    color: rgba(5, 96, 136, 1);
+    margin-bottom: 16px;
+}
+
+main .container .cards__wrap .card .experience{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 6px;
+}
+
+main .container .cards__wrap .card .job__time{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 6px;
+}
+
+main .container .cards__wrap .card .salary{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 32px;
+}
