@@ -89,6 +89,12 @@ button{
     transform: translate(-50%, -20%);
 }
 
+.container .main1{
+    display: flex;
+    gap: 39px;
+    margin-bottom: 100px;
+}
+
 .container .main1 .main1__title p:first-child{
     font-weight: 700;
     font-size: 24px;
@@ -107,4 +113,10 @@ button{
     display: flex;
     align-items: center;
     gap: 62px;
+}
+
+.container .main1 .main1__title .text__wrap p{
+    font-weight: 700;
+    font-size: 20px;
+    color: rgba(5, 96, 136, 1);
 }
