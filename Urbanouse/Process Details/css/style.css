@@ -102,3 +102,9 @@ button{
     color: rgba(67, 67, 67, 1);
     margin-bottom: 16px;
 }
+
+.container .main1 .main1__title .text__wrap{
+    display: flex;
+    align-items: center;
+    gap: 62px;
+}
