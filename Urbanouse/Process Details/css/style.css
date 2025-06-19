@@ -175,6 +175,7 @@ footer{
     height: 380px;
     padding: 60px 0 74px 0;
     background: linear-gradient(rgba(2, 57, 87, 1), rgba(5, 96, 136, 1));
+    margin-top: 636px;
 }
 
 footer .container{
