@@ -89,6 +89,13 @@ button{
     transform: translate(-50%, -20%);
 }
 
+main .container .cards__wrap{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
 main .container .cards__wrap .card{
     width: 420px;
     height: 300px;
