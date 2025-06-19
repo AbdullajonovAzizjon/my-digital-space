@@ -43,6 +43,7 @@ button{
     max-width: 1440px;
     width: 100%;
     margin: 0 auto;
+    padding: 0 70px;
 }
 
 .header .container .logo__menu--wrap{
@@ -78,7 +79,7 @@ button{
 
 .header .container .header__title{
     font-weight: 700;
-    font-size: 52px;
+    font-size: 44px;
     color: rgba(255, 255, 255, 1);
     text-align: center;
     display: flex;
