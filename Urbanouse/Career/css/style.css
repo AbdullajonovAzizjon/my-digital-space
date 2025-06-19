@@ -131,3 +131,11 @@ main .container .cards__wrap .card .salary{
     gap: 10px;
     margin-bottom: 32px;
 }
+
+main .container .main__text {
+    font-weight: 700;
+    font-size: 24px;
+    color: rgba(5, 96, 136, 1);
+    text-align: center;
+    margin: 100px 0;
+}
