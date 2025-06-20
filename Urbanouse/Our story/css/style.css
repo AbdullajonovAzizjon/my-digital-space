@@ -96,3 +96,23 @@ main .container .comments__wrap .comment1{
     background-repeat: no-repeat;
     padding: 20px 52px 42px 22px;
 }
+
+main .container .comments__wrap .comment1 img:first-child{
+    margin-bottom: 32px;
+}
+
+main .container .comments__wrap .comment1 p:nth-child(2){
+    font-weight: 400;
+    font-style: italic;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 16px;
+}
+
+main .container .comments__wrap .comment1 p:nth-child(3){
+    font-weight: 600;
+    font-style: italic;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 16px;
+}
