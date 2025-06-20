@@ -88,3 +88,11 @@ button{
     left: 50%;
     transform: translate(-50%, -20%);
 }
+
+main .container .comments__wrap .comment1{
+    width: 416px;
+    height: 373px;
+    background-image: url(../assets/images/idea1__bg.png);
+    background-repeat: no-repeat;
+    padding: 20px 52px 42px 22px;
+}
